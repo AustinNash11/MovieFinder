@@ -1,0 +1,29 @@
+.container{
+    background-color: rgba(183, 147, 114, 0.607);
+    min-height: 505px;
+    max-height: 650px;
+    width: 750px;
+    overflow-y: scroll;
+    margin: 0;
+}
+.object{
+    color: azure;
+    margin: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    border-bottom: 2px solid white;
+}
+.row1{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.row1 .title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.row1 .image{
+    max-width: 100px;
+    height: auto;
+}
